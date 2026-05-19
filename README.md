@@ -9,7 +9,7 @@ Sockets Links.
  server .
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
-```
+
 CLIENT.PY
 <img width="1447" height="688" alt="Screenshot 2026-05-19 111832" src="https://github.com/user-attachments/assets/422c99d7-8a1e-4d81-9509-e8df139b9b60" />
 
@@ -18,7 +18,7 @@ CLIENT.PY
 SERVER.PY
 
 <img width="1361" height="649" alt="Screenshot 2026-05-19 111735" src="https://github.com/user-attachments/assets/0257db68-ce35-4746-bec9-f411891dd547" />
-```
+
 
 
 
