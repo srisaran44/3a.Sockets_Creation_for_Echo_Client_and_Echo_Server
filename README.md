@@ -11,24 +11,13 @@ Sockets Links.
 ## PROGRAM
 ```
 CLIENT.PY
-import socket
-s=socket.socket()
-s.connect(('localhost',8000))
-while True:
- msg=input("Client > ")
- s.send(msg.encode())
- print("Server > ",s.recv(1024).decode())
+<img width="1447" height="688" alt="Screenshot 2026-05-19 111832" src="https://github.com/user-attachments/assets/422c99d7-8a1e-4d81-9509-e8df139b9b60" />
+
+
 
 SERVER.PY
 
-import socket
-s=socket.socket()
-s.bind(('localhost',8000))
-s.listen(5)
-c,addr=s.accept()
-while True:
- ClientMessage=c.recv(1024).decode()
- c.send(ClientMessage.encode())
+<img width="1361" height="649" alt="Screenshot 2026-05-19 111735" src="https://github.com/user-attachments/assets/0257db68-ce35-4746-bec9-f411891dd547" />
 ```
 
 
